@@ -1,9 +1,9 @@
 cask "inflow" do
-  version "0.14.2"
+  version "0.15.0"
   arch arm: "arm64", intel: "x64"
 
-  sha256 arm:   "86c34b9211a74f4c41b2b6444b0713fcbed4fcbae534fb49b2aafa52036be9af",
-         intel: "4021817ef979f224c47e61b8755762c41f69f1bdc0cc7f47c5dc67fb7c1145ec"
+  sha256 arm:   "227eee4d99e84a0ca637476b3020ee99633f6c254db1fd269064f75a2221235d",
+         intel: "937a0921cce17f49a7fd3f7228c7dc7c2d4bf74e890eadca697572a479af0243"
 
   url "https://github.com/inflowpayai/inflow-cli/releases/download/v#{version}/inflow-#{version}-darwin-#{arch}.zip"
   name "InFlow"
